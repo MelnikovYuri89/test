@@ -1,0 +1,299 @@
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+
+Это блок который трогать не надо, это своего рода сброс стилей для всех элементов
+т.е. ты весь своей цсс будешь писать после этого блока
+
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+	line-height:17px;
+	font-size:13px;
+}
+h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	font-style:italic;
+	background:url(images/blockquote.gif) 1px 0 no-repeat;
+	padding:15px 0 0 22px;
+	color:#222222;
+	font-family:Georgia;
+}
+.entry blockquote {
+	margin:32px 0 25px;
+	font-size:14px;
+	line-height:22px;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+
+/* =Structure
+
+А вот тут уже начинаются твои стили
+
+-------------------------------------------------------------- */
+/*------------------------------------------------------------ global start*/
+
+body {
+	border-top: 2px solid #4d83cc;
+}
+
+.global{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.cart{
+	margin-top: -3px;
+	background-color: #4d83cc;
+	height: 29px;
+	width: 100px;
+	color: #fff;
+	font-size: 12px;
+	font-family: tahoma;
+	float: right;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.cart_displey{
+	margin: 3px 0 0 12px;
+}
+
+.text_cart_displey{
+	vertical-align: super; 
+}
+
+.login{
+	margin-top: -3px;
+	margin-left: 10px;
+	background-color: #4d83cc;
+	width: 120px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 29px;
+	font-family: tahoma;
+	float: right;
+	border-radius: 3px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.text_login{
+	padding-top: 10px;
+}
+
+/*------------------------------------------------------------ global end*/
+/*------------------------------------------------------------ headder start*/
+
+.header{
+	width: 960px;
+	height: 178px;
+	background: #fff url(logo.png) no-repeat;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.ul_top{
+	border-bottom: 1px dotted #aab0b0;
+	float: right;
+	margin-top: 70px;
+}
+
+.li_top{
+	font-family: Comic Sans MS;
+	color: #566261;
+	font-size: 14px;
+	margin-left: 70px;
+	display: inline-block;
+}
+
+.li_top:hover{
+	text-decoration: underline;
+	color: #566261;
+
+}
+
+.logo{
+	float: left;
+	height: 160px;
+	width: 210px;
+}
+/*------------------------------------------------------------ headder end*/
+/*------------------------------------------------------------ main_content start*/
+/*------------------------------------------------------------ left_column start*/
+
+.main_png{
+	width: 960px;
+	height: 363px;
+	background-image: url(main.png);
+}
+
+.main_dot{
+	height: 70px;
+	width: 960px;
+}
+
+.dot_float{
+	float: right;
+}
+
+.dot{
+	margin: 20px 0 0 12px;
+	height: 10px;
+	width: 10px;
+	border: 2px solid #487fca;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.main_content{
+	width: 660px;
+	float: left;
+	border: 1px solid red;
+}
+
+.main_text{
+	color: #566261;
+	font-size: 18px;
+	font-family: tahoma;
+	font-weight: normal;
+	line-height: 28px;
+	height: 160px;
+	border-bottom: 1px dotted #aab0b0;
+}
+
+.cloudunion_1{
+	font-size: 24px;
+	font-weight: bold;
+	color: #4d83cc;
+}
+.cloudunion_2{
+	font-size: 24px;
+	font-weight: bold;
+	color: #566261;
+}
+
+.main_img{
+
+}
+
+/*------------------------------------------------------------ left_column end*/
+/*------------------------------------------------------------ right_column start*/
+
+.main_content_right{
+	width: 210px;
+	float: right;
+	border: 1px solid red;
+}
+
+.text_serch{
+	color: #566261;
+	font-size: 18px;
+	font-family: tahoma;
+	font-weight: normal;
+	line-height: 28px;
+
+}
+
+.serch{
+	width: 170px;
+	height: 25px;
+	border-top: 1px solid #a8aeae;
+	background-color: #889190;
+	border: none;
+}
+
+/*------------------------------------------------------------ right_column end*/
+/*------------------------------------------------------------ main_content end*/
+/*------------------------------------------------------------ footer start
+
+.footer_garantor{
+	margin: 0 auto;
+	width: 960px;
+	height: 220px;
+	clear: both;
+	background: #fff;
+	border: 1px solid red;
+}
+
+.footer{
+	margin: 0 auto;
+	margin-top: -220px;
+	width: 960px;
+	height: 220px;
+	clear: both;
+	background: #282e2e;
+	color: #4d83cc;
+	border: 1px solid red;
+}
+
+.footer_logo{
+	height: 190px;
+	width: 320px;
+	border: 1px solid red;
+}
+
+.footer_nav{
+	height: 190px;
+	width: 320px;
+	border: 1px solid red;
+}
+
+.footer_nav_part_1{
+	height: 190px;
+	width: 160px;
+	border: 1px solid red;
+}
+
+.footer_nav_part_2{
+	height: 190px;
+	width: 160px;
+	border: 1px solid red;
+}
+
+.footer_search{
+	height: 190px;
+	width: 320px;
+	border: 1px solid red;
+}
+
+.footer_bottom{
+	width: 960px;
+	border: 1px solid red;
+}
+
+/*------------------------------------------------------------ footer end*/
