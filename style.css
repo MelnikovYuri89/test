@@ -122,7 +122,6 @@ body {
 .header{
 	width: 960px;
 	height: 178px;
-	background: #fff url(logo.png) no-repeat;
 	margin-top: 20px;
 	overflow: hidden;
 }
@@ -151,6 +150,7 @@ body {
 	float: left;
 	height: 160px;
 	width: 210px;
+	background: #fff url(logo.png) no-repeat;
 }
 /*------------------------------------------------------------ headder end*/
 /*------------------------------------------------------------ main_content start*/
