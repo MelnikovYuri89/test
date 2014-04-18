@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<!--этот линк пока никому не нужен, можно просто удалить-->
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
 		<link rel="stylesheet" type="text/css" media="all" href="style.css" />
 	</head>
@@ -14,14 +15,20 @@
 			</a>
 				
 			<a href="#" class="cart">
-				<img src="cart.png" class="cart_displey">
-				<span class="text_cart_displey">Корзина</span>
+				<img src="cart.png" class="cart_display">
+				<span class="text_cart_display">Корзина</span>
 			</a>
 
 			<div class="header">
 
 			<!-- delete div.logo, add 'logo' to link instead -->
-			<a href="#" class="logo"> 
+			<a href="#" class="logo">
+				<!--
+				сделай внутри 2 span
+				в одном укажи cloud union
+				в другом - Расскрась свой мир
+				первый сделай невидимым, второй спозиционируй куда нужно, задай цвет и т.п.
+				-->
 			</a>
 
 				<!--
@@ -47,6 +54,7 @@
 			</div>
 
 		<div class="main_png">
+			<!--это лучше замени на картинку-->
 		</div>
 
 		<div class="main_dot">
@@ -71,13 +79,19 @@
 		<div class="main_content">
 
 			<p class="main_text">
+				<!--
+				вместо cloudunion_1, cloudunion_2 лучше сделай классы text_big_blue, text_big_grey
+				тогда ты сможешь эти классы использовать где угодно независимо от текста внутри
+				-->
 				Команда <span class="cloudunion_1">Cloud</span><span class="cloudunion_2">Union</span> принимает во внимание непредвиденный предмет деятельности, ломая рамки привычных представлений. Дуализм, как принято считать, ясен не всем. Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью горизонты.
 			</p>
 
 		</div>
 		<div class="main_content_right">
+			<!--вместо p лучше используй label-->
 			<p class="text_search">Ищу все</p>
 			<input type="text" class="search">
+			<!--вместо img используй button-->
 			<img src="search.png">
 		</div>
 <!--
