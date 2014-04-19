@@ -144,9 +144,11 @@ a{
 }
 
 .slogan{
-	font-family: Comic Sans MS;
-	color: #566261;
-	font-size: 14px;
+	font-family: Trebuchet MS;
+	color: #4d83cc;
+	font-size: 24px;
+	margin-left: 70px;
+	margin-top: 90px;
 }
 
 .ul_top{
