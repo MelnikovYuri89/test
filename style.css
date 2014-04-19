@@ -131,8 +131,22 @@ a{
 	overflow: hidden;
 }
 
+.logo{
+	float: left;
+	height: 160px;
+	width: 340px;
+	background: #fff url(logo.png) no-repeat;
+	text-decoration: none;
+}
+
 .cloudunion{
 	opacity: 0;
+}
+
+.slogan{
+	font-family: Comic Sans MS;
+	color: #566261;
+	font-size: 14px;
 }
 
 .ul_top{
@@ -155,13 +169,6 @@ a{
 
 .link_top:hover{
 	border-bottom: 4px solid #4d83cc;
-}
-
-.logo{
-	float: left;
-	height: 160px;
-	width: 340px;
-	background: #fff url(logo.png) no-repeat;
 }
 /*------------------------------------------------------------ header end*/
 /*------------------------------------------------------------ main_content start*/
