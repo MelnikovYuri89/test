@@ -94,11 +94,11 @@ a{
 	text-decoration: none;
 }
 
-.cart_displey{
+.cart_display{
 	margin: 3px 0 0 12px;
 }
 
-.text_cart_displey{
+.text_cart_display{
 	vertical-align: super; 
 }
 
@@ -131,6 +131,10 @@ a{
 	overflow: hidden;
 }
 
+.cloudunion{
+	opacity: 0;
+}
+
 .ul_top{
 	border-bottom: 1px dotted #aab0b0;
 	float: right;
@@ -159,18 +163,18 @@ a{
 	width: 340px;
 	background: #fff url(logo.png) no-repeat;
 }
-/*------------------------------------------------------------ headder end*/
+/*------------------------------------------------------------ header end*/
 /*------------------------------------------------------------ main_content start*/
 
 .main_png{
-	width: 960px;
+	width: 960px; /*у тебя уже стоит width у .global*/
 	height: 363px;
 	background-image: url(main.png);
 }
 
 .main_dot{
 	height: 70px;
-	width: 960px;
+	width: 960px; /*у тебя уже стоит width у .global*/
 }
 
 .dot_float{
@@ -207,6 +211,7 @@ a{
 	border-bottom: 1px dotted #aab0b0;
 }
 
+/*смотри коммент в хтмл про эти классы*/
 .cloudunion_1{
 	font-size: 24px;
 	font-weight: bold;
