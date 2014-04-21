@@ -128,15 +128,15 @@ a{
 	width: 960px;
 	height: 178px;
 	margin-top: 20px;
-	overflow: hidden;
 }
 
 .logo{
 	float: left;
-	height: 160px;
+	height: 153px;
 	width: 340px;
 	background: #fff url(logo.png) no-repeat;
 	text-decoration: none;
+	position: relative;
 }
 
 .cloudunion{
@@ -147,12 +147,13 @@ a{
 	font-family: Trebuchet MS;
 	color: #4d83cc;
 	font-size: 24px;
-	margin-left: 70px;
-	margin-top: 90px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
 .ul_top{
-	border-bottom: 1px dotted #aab0b0;
+	border-bottom: 1px dashed #aab0b0;
 	float: right;
 	margin-top: 70px;
 }
@@ -167,6 +168,8 @@ a{
 	font-size: 14px;
 	margin-left: 70px;
 	text-decoration: none;
+	position: relative;
+	top: 5px;
 }
 
 .link_top:hover{
@@ -217,7 +220,7 @@ a{
 	font-weight: normal;
 	line-height: 28px;
 	height: 160px;
-	border-bottom: 1px dotted #aab0b0;
+	border-bottom: 1px dashed #aab0b0;
 }
 
 /*смотри коммент в хтмл про эти классы*/
@@ -250,6 +253,7 @@ a{
 	background: url(pic_1.png);
 	display: inline-block;
 	margin-bottom: 40px;
+	overflow: hidden;
 }
 
 .main_img_2{
@@ -259,6 +263,7 @@ a{
 	display: inline-block;
 	margin-left: 40px;
 	margin-bottom: 40px;
+	overflow: hidden;
 }
 
 .main_img_3{
@@ -267,6 +272,7 @@ a{
 	background-image: url(pic_3.png);
 	display: inline-block;
 	margin-bottom: 40px;
+	overflow: hidden;
 }
 
 .main_img_4{
@@ -276,6 +282,16 @@ a{
 	display: inline-block;
 	margin-left: 40px;
 	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.order{
+	padding: 10px;
+	float: right;
+	color: #ffffff;
+	font-size: 10px;
+	background-color: #4d83cc;
+	font-family: Comic Sans MS;
 }
 
 /*------------------------------------------------------------ left_column end*/
@@ -295,13 +311,16 @@ a{
 }
 
 .search{
-	width: 210px;
+	width: 190px;
 	height: 24px;
-	background-image: url(search.png);
 	background-color: #889190;
 	border: none;
 	margin-top: 10px;
 	margin-bottom: 80px;
+}
+
+.img_button{
+	background-image: url(search.png);
 }
 
 .news{
