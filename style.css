@@ -311,16 +311,20 @@ a{
 }
 
 .search{
-	width: 190px;
-	height: 24px;
+	width: 180px;
+	height: 25px;
 	background-color: #889190;
 	border: none;
-	margin-top: 10px;
+	border-top: 1px solid #a8aeae;
+	margin-top: 0px;
 	margin-bottom: 80px;
 }
 
 .img_button{
 	background-image: url(search.png);
+	width: 30px;
+	height: 26px;
+	border: none;
 }
 
 .news{
@@ -348,7 +352,7 @@ a{
 
 .gb_footer{
 	background: #282e2e;
-	height: 220px;
+	height: 250px;
 }
 
 .footer{
@@ -361,10 +365,12 @@ a{
 }
 
 .footer_logo{
-	height: 190px;
-	width: 320px;
+	padding-top: 10px;
+	height: 200px;
+	width: 300px;
 	border: 1px solid red;
-	line-height: 36px;
+	line-height: 26px;
+	display: inline-block;
 }
 
 .cloudunion_1_f{
@@ -378,33 +384,74 @@ a{
 	color: #566261;
 }
 
-.footer_nav{
-	height: 190px;
-	width: 320px;
-	border: 1px solid red;
+.slogan_footer{
+	font-family: Trebuchet MS;
+	color: #4d83cc;
+	font-size: 24px;
 }
 
 .footer_nav_part_1{
-	height: 190px;
+	height: 200px;
 	width: 160px;
 	border: 1px solid red;
+	display: inline-block;
 }
 
 .footer_nav_part_2{
-	height: 190px;
+	height: 200px;
 	width: 160px;
 	border: 1px solid red;
+	display: inline-block;
 }
 
 .footer_search{
 	height: 190px;
 	width: 320px;
 	border: 1px solid red;
+	display: inline-block;
 }
 
 .footer_bottom{
+	margin: 0 auto;
 	width: 960px;
+	height: 30px;
 	border: 1px solid red;
 }
 
+.text_blue{
+	color: #4d83cc;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.text_grey{
+	color: #566261;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.mail{
+	width: 150px;
+	height: 25px;
+	background-color: #566261;
+	border: 0;
+	font-size: 14px;
+	font-family: Verdana;
+	color: #ffffff;
+	font-style: italic;
+	padding-left: 5px;
+}
+
+.footer_button{
+	background-color: #566261;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: Verdana;
+	color: #ffffff;
+	border-radius: 3px;
+	margin-left: 10px;
+}
 /*------------------------------------------------------------ footer end*/
