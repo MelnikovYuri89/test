@@ -121,10 +121,9 @@ a {
 }
 
 /*------------------------------------------------------------ global end*/
-/*------------------------------------------------------------ headder start*/
+/*------------------------------------------------------------ header start*/
 
 .header {
-	width: 960px;
 	height: 178px;
 	margin-top: 20px;
 }
@@ -301,13 +300,13 @@ a {
 	line-height: 24px;
 }
 
-.search_form {
+.search_box {
 	display: block;
 	min-width: 100%;
 	margin-bottom: 80px;
 }
 
-.search_form .inner{
+.search_box .inner{
 	display: block;
 	background-color: #889190;
 	position: relative;
@@ -340,7 +339,10 @@ a {
 	color: #4d83cc;
 	font-size: 12px;
 	font-family: tahoma;
-	line-height: 24px;
+	line-height: 30px;
+	background: url(cloud.png) no-repeat;
+	padding-left: 35px;
+	position: relative;
 }
 
 .text_news {
@@ -349,6 +351,16 @@ a {
 	font-family: tahoma;
 	margin-top: 10px;
 	margin-bottom: 30px;
+}
+
+.data{
+	line-height: 8px;
+	font-style: tahoma;
+	font-size: 9px;
+	color: #4d83cc;
+	position: absolute;
+	left: 11px;
+	top: 11px;
 }
 
 .cloud {
@@ -373,7 +385,7 @@ a {
 }
 
 .footer_logo {
-	/*padding-top: 10px;*/
+	padding-top: 10px;
 	height: 200px;
 	width: 360px;
 	line-height: 26px;

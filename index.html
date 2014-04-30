@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 	<head>
+		<title>CloudUnion</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="stylesheet" type="text/css" media="all" href="style.css" />
@@ -14,7 +15,7 @@
 			</a>
 				
 			<a href="#" class="cart">
-				<img src="cart.png" class="cart_display">
+				<img src="cart.png" alt="cart" class="cart_display">
 				<span class="text_cart_display">Корзина</span>
 			</a>
 
@@ -42,7 +43,7 @@
 					</ul>
 		</div>
 
-		<img src="main.png" height="363" width="960">
+		<img src="main.png" alt="#" height="363" width="960">
 
 		<div class="main_dot">
 
@@ -71,37 +72,35 @@
 
 			<div class="pic">
 				<p class="name_link">НАШИ НОВОСТИ</p>
-				<div class="main_img_1"><span class="order">ЗАКАЗАТЬ</span></div>
-				<div class="main_img_2"><span class="order">ЗАКАЗАТЬ</span></div>
-				<div class="main_img_3"><span class="order">ЗАКАЗАТЬ</span></div>
-				<div class="main_img_4"><span class="order">ЗАКАЗАТЬ</span></div>
+				<a href="#" class="main_img_1"><span class="order">ЗАКАЗАТЬ</span></a>
+				<a href="#" class="main_img_2"><span class="order">ЗАКАЗАТЬ</span></a>
+				<a href="#" class="main_img_3"><span class="order">ЗАКАЗАТЬ</span></a>
+				<a href="#" class="main_img_4"><span class="order">ЗАКАЗАТЬ</span></a>
 			</div>
 
 		</div>
 			<div class="main_content_right">
 
 
-					<p class="text_search">Ищу все</p>
-			<!-- fuck... i can't push down this f***n button-->
-					<form class="search_form">
+					<label class="text_search" for="search_box">Ищу все</label> 
+					<form class="search_box">
 						<div class="inner">
 							<input type="text" class="search">
 							<button class="img_button"></button>
 						</div>
 					</form>
 
-					<img src="cloud.png" class="cloud">
-					<p class="news">ТЕМА ПОСЛЕДНЕЙ НОВОСТИ</p>
+					<div class="news"><span class="data">01 <br> янв</span>ТЕМА ПОСЛЕДНЕЙ НОВОСТИ</div>
 
 					<p class="text_news">Художественная элита вызывает героический миф, что-то подобное можно встретить в работах Ауэрбаха и Тандлера.</p>
 
-					<img src="cloud.png" class="cloud">
-					<p class="news">ТЕМА ПОСЛЕДНЕЙ НОВОСТИ</p>
+					<div class="news"><span class="data">01 <br> янв</span>ТЕМА ПОСЛЕДНЕЙ НОВОСТИ</div>
 
 					<p class="text_news">Художественная элита вызывает героический миф, что-то подобное можно встретить в работах Ауэрбаха и Тандлера.</p>
 
+					<!--make banners as separate images and links-->
 					<a href="#">
-						<img src="reklama.png">
+						<img src="reklama.png" alt="banners" >
 					</a>
 			</div>
 		 	
@@ -110,7 +109,6 @@
 	<div class="gb_footer">
 
 	 	<div class="footer">
-	 		<!-- i don't know how to align all this div-->
 	 		<div class="footer_logo">
 	 			<a href="#"><span class="text_big_blue_f">Cloud</span><span class="text_big_grey_f">Union</span>
 	 			<p class="slogan_footer">Филигранная аджика</p>
@@ -133,20 +131,19 @@
 		 			<il class="text_grey">// Flickr</il> <br>
 		 		</ul>
 
-	 		<div class="footer_search">
-	 			<p class="text_blue">Подпишитесь на наши новости</p>
-	 			<input type="text" class="mail" value="Email...">
-	 			<input type="button" class="footer_button" value="Подписаться!">
-
-	 		</div>
+		 	<form class="footer_search">
+		 			<label for="footer_search" class="text_blue">Подпишитесь на наши новости</p>
+		 			<input type="text" class="mail" value="Email...">
+		 			<input type="button" class="footer_button" value="Подписаться!">
+		 	</form>
 
 	 	</div>
 
 	 	<div class="g_footer_bottom">
+ 		<div class="footer_bottom">
 	 		<div class="footer_bottom">
-	 			© 2012 | Все права защищены | Дизайн TNMilka@gmail.com
+	 			&copy; 2012 | Все права защищены | Дизайн TNMilka@gmail.com
 	 		</div>
-	 	</div>	
 
 	</div>
   	</body>
