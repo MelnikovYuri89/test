@@ -121,10 +121,10 @@ a{
 }
 
 /*------------------------------------------------------------ global end*/
-/*------------------------------------------------------------ headder start*/
+/*------------------------------------------------------------ header start*/
 
 .header{
-	width: 960px;
+	width: 960px; /*you don't need width because it is inherited from global*/
 	height: 178px;
 	margin-top: 20px;
 }

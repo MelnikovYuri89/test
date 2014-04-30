@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 	<head>
+		<!--add title to the page http://htmlbook.ru/html/title/-->
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="stylesheet" type="text/css" media="all" href="style.css" />
@@ -14,6 +15,7 @@
 			</a>
 				
 			<a href="#" class="cart">
+				<!-- all images should have alt text!!! http://htmlbook.ru/html/img/alt -->
 				<img src="cart.png" class="cart_display">
 				<span class="text_cart_display">Корзина</span>
 			</a>
@@ -42,6 +44,7 @@
 					</ul>
 		</div>
 
+		<!-- add alt -->
 		<img src="main.png" height="363" width="960">
 
 		<div class="main_dot">
@@ -71,6 +74,7 @@
 
 			<div class="pic">
 				<p class="name_link">НАШИ НОВОСТИ</p>
+				<!--make these as links-->
 				<div class="main_img_1"><span class="order">ЗАКАЗАТЬ</span></div>
 				<div class="main_img_2"><span class="order">ЗАКАЗАТЬ</span></div>
 				<div class="main_img_3"><span class="order">ЗАКАЗАТЬ</span></div>
@@ -82,20 +86,27 @@
 
 
 					<p class="text_search">Ищу все</p>
-			<!-- fuck... i can't push down this f***n button-->
+					<!--
+					1) remove margin from the input, make a 'form' container with class search-box (http://htmlbook.ru/html/form/), give margin to it
+					2) use vertical-align: middle on both input and button to align them, make small adjustments after
+					3) p.text_search should be a label, see http://htmlbook.ru/html/label/
+					-->
 					<input type="text" class="search">
 					<button class="img_button"></button>
 
+					<!-- remove text from could.png, add text in html, just like for a logo -->
 					<img src="cloud.png" class="cloud">
 					<p class="news">ТЕМА ПОСЛЕДНЕЙ НОВОСТИ</p>
 
 					<p class="text_news">Художественная элита вызывает героический миф, что-то подобное можно встретить в работах Ауэрбаха и Тандлера.</p>
 
+				<!-- remove text from could.png, add text in html, just like for a logo -->
 					<img src="cloud.png" class="cloud">
 					<p class="news">ТЕМА ПОСЛЕДНЕЙ НОВОСТИ</p>
 
 					<p class="text_news">Художественная элита вызывает героический миф, что-то подобное можно встретить в работах Ауэрбаха и Тандлера.</p>
 
+					<!--make banners as separate images and links-->
 					<a href="#">
 						<img src="reklama.png">
 					</a>
@@ -114,7 +125,8 @@
 	 		</div>
 	 			
 		 		<ul class="footer_nav_part_1"> 
-		 			<li class="text_blue">Навигация</li> 
+		 			<li class="text_blue">Навигация</li>
+				    <!-- il??? -->
 		 			<il class="text_grey">// Главная</il> 
 		 			<il class="text_grey">// Работы</il> 
 		 			<il class="text_grey">// Заказать</il> 
@@ -122,7 +134,8 @@
 		 		</ul>
 
 		 		<ul class="footer_nav_part_2"> 
-		 			<li class="text_blue">Мы здесь</li> 
+		 			<li class="text_blue">Мы здесь</li>
+				    <!-- same shit -->
 		 			<il class="text_grey">// Вконтакте</il> 
 		 			<il class="text_grey">// Facebook</il> 
 		 			<il class="text_grey">// Twitter</il> 
@@ -130,6 +143,7 @@
 		 		</ul>
 
 	 		<div class="footer_search">
+			    <!--same as in sidebar, p should be a label, whole block should be in a form tag-->
 	 			<p class="text_blue">Подпишитесь на наши новости</p>
 	 			<input type="text" class="mail" value="Mail...">
 	 			<input type="button" class="footer_button" value="Подписаться!">
@@ -139,7 +153,8 @@
 	 	</div>
 
  		<div class="footer_bottom">
- 			© 2012 | Все права защищены | Дизайн TNMilka@gmail.com
+		    <!-- copyright symbol should be encoded, see http://www.w3schools.com/html/html_entities.asp -->
+		    © 2012 | Все права защищены | Дизайн TNMilka@gmail.com
  		</div>
 
 	</div>
