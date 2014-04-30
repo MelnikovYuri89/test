@@ -13,49 +13,49 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+table, caption, tbody, tfoot, thead, tr, th, td  {
 	background: transparent;
 	border: 0;
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
 }
-body {
+body  {
 	line-height:17px;
 	font-size:13px;
 }
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6  {
 	clear: both;
 	font-weight: normal;
 }
-ol, ul {
+ol, ul  {
 	list-style: none;
 }
-blockquote {
+blockquote  {
 	font-style:italic;
 	background:url(images/blockquote.gif) 1px 0 no-repeat;
 	padding:15px 0 0 22px;
 	color:#222222;
 	font-family:Georgia;
 }
-.entry blockquote {
+.entry blockquote  {
 	margin:32px 0 25px;
 	font-size:14px;
 	line-height:22px;
 }
-blockquote:before, blockquote:after {
+blockquote:before, blockquote:after  {
 	content: '';
 	content: none;
 }
-del {
+del  {
 	text-decoration: line-through;
 }
 /* tables still need 'cellspacing="0"' in the markup */
-table {
+table  {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-a img {
+a img  {
 	border: none;
 }
 
@@ -65,22 +65,22 @@ a img {
 
 /*------------------------------------------------------------ global start*/
 
-body {
+body  {
 	border-top: 2px solid #4d83cc;
 	font-size: 0;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
-.global{
+.global {
 	width: 960px;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
-.cart{
+.cart {
 	margin-top: -3px;
 	background-color: #4d83cc;
 	height: 29px;
@@ -93,15 +93,15 @@ a{
 	text-decoration: none;
 }
 
-.cart_display{
+.cart_display {
 	margin: 3px 0 0 12px;
 }
 
-.text_cart_display{
+.text_cart_display {
 	vertical-align: super; 
 }
 
-.login{
+.login {
 	margin-top: -3px;
 	margin-left: 10px;
 	background-color: #4d83cc;
@@ -116,20 +116,20 @@ a{
 	text-align: center;
 }
 
-.text_login{
+.text_login {
 	padding-top: 10px;
 }
 
 /*------------------------------------------------------------ global end*/
 /*------------------------------------------------------------ headder start*/
 
-.header{
+.header {
 	width: 960px;
 	height: 178px;
 	margin-top: 20px;
 }
 
-.logo{
+.logo {
 	float: left;
 	height: 153px;
 	width: 340px;
@@ -138,11 +138,11 @@ a{
 	position: relative;
 }
 
-.cloudunion{
+.cloudunion {
 	opacity: 0;
 }
 
-.slogan{
+.slogan {
 	font-family: Trebuchet MS;
 	color: #4d83cc;
 	font-size: 24px;
@@ -151,17 +151,17 @@ a{
 	bottom: 0;
 }
 
-.ul_top{
+.ul_top {
 	border-bottom: 1px dashed #aab0b0;
 	float: right;
 	margin-top: 70px;
 }
 
-.li_top{
+.li_top {
 	display: inline-block;
 }
 
-.link_top{
+.link_top {
 	font-family: Comic Sans MS;
 	color: #566261;
 	font-size: 14px;
@@ -171,21 +171,21 @@ a{
 	top: 5px;
 }
 
-.link_top:hover{
+.link_top:hover {
 	border-bottom: 4px solid #4d83cc;
 }
 /*------------------------------------------------------------ header end*/
 /*------------------------------------------------------------ main_content start*/
 
-.main_dot{
+.main_dot {
 	height: 70px;
 }
 
-.dot_float{
+.dot_float {
 	float: right;
 }
 
-.dot{
+.dot {
 	margin: 20px 0 0 12px;
 	height: 10px;
 	width: 10px;
@@ -194,18 +194,18 @@ a{
 	display: inline-block;
 }
 
-.dot:hover{
+.dot:hover {
 	background-color: #566261;
 }
 
 /*------------------------------------------------------------ left_column start*/
 
-.main_content_left{
+.main_content_left {
 	width: 660px;
 	float: left;
 }
 
-.main_text{
+.main_text {
 	color: #566261;
 	font-size: 18px;
 	font-family: tahoma;
@@ -215,22 +215,22 @@ a{
 	border-bottom: 1px dashed #aab0b0;
 }
 
-.text_big_blue{
+.text_big_blue {
 	font-size: 24px;
 	font-weight: bold;
 	color: #4d83cc;
 }
-.text_big_grey{
+.text_big_grey {
 	font-size: 24px;
 	font-weight: bold;
 	color: #566261;
 }
 
-.pic{
+.pic {
 	font-size: 0;
 }
 
-.name_link{
+.name_link {
 	font-family: Comic Sans MS;
 	color: #4d83cc;
 	font-size: 18px;
@@ -238,7 +238,7 @@ a{
 	margin-bottom: 25px;
 }
 
-.main_img_1{
+.main_img_1 {
 	height: 310px;
 	width: 310px;
 	background: url(pic_1.png);
@@ -247,7 +247,7 @@ a{
 	overflow: hidden;
 }
 
-.main_img_2{
+.main_img_2 {
 	height: 310px;
 	width: 310px;
 	background-image: url(pic_2.png);
@@ -257,7 +257,7 @@ a{
 	overflow: hidden;
 }
 
-.main_img_3{
+.main_img_3 {
 	height: 310px;
 	width: 310px;
 	background-image: url(pic_3.png);
@@ -266,7 +266,7 @@ a{
 	overflow: hidden;
 }
 
-.main_img_4{
+.main_img_4 {
 	height: 310px;
 	width: 310px;
 	background-image: url(pic_4.png);
@@ -276,7 +276,7 @@ a{
 	overflow: hidden;
 }
 
-.order{
+.order {
 	padding: 5px 10px;
 	float: right;
 	color: #ffffff;
@@ -288,12 +288,12 @@ a{
 /*------------------------------------------------------------ left_column end*/
 /*------------------------------------------------------------ right_column start*/
 
-.main_content_right{
+.main_content_right {
 	width: 210px;
 	float: right;
 }
 
-.text_search{
+.text_search {
 	color: #566261;
 	font-size: 18px;
 	font-family: tahoma;
@@ -301,31 +301,49 @@ a{
 	line-height: 24px;
 }
 
-.search{
-	width: 180px;
-	height: 25px;
-	background-color: #889190;
-	border: none;
-	border-top: 1px solid #a8aeae;
-	margin-top: 0px;
+.search_form {
+	display: block;
+	min-width: 100%;
 	margin-bottom: 80px;
 }
 
-.img_button{
-	background-image: url(search.png);
+.search_form .inner{
+	display: block;
+	background-color: #889190;
+	position: relative;
+}
+
+.search {
+	box-sizing: border-box;
+	width: 100%;
+	height: 25px;
+	border: none;
+	display: block;
+	padding-right: 30px;
+	background: transparent;
+	padding-left: 6px;
+	color: #fff;
+}
+
+.img_button {
+	background: #889190 url(search.png) no-repeat 2px 3px;
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	right: 0;
 	width: 30px;
-	height: 26px;
+	height: 25px;
 	border: none;
 }
 
-.news{
+.news {
 	color: #4d83cc;
 	font-size: 12px;
 	font-family: tahoma;
 	line-height: 24px;
 }
 
-.text_news{
+.text_news {
 	font-size: 12px;
 	line-height: 18px;
 	font-family: tahoma;
@@ -333,7 +351,7 @@ a{
 	margin-bottom: 30px;
 }
 
-.cloud{
+.cloud {
 	float: left;
 }
 
@@ -341,72 +359,73 @@ a{
 /*------------------------------------------------------------ main_content end*/
 /*------------------------------------------------------------ footer start*/
 
-.gb_footer{
-	background: #282e2e;
+.gb_footer {
 	height: 250px;
+	background: #282e2e url(noznici.png) no-repeat 0% 88%;
 }
 
-.footer{
+.footer {
 	margin: 0 auto;
+	padding-top: 10px;
 	width: 960px;
-	height: 220px;
-	background: #282e2e;
+	height: 200px;
 	color: #4d83cc;
-	border: 1px solid red;
 }
 
-.footer_logo{
-	padding-top: 10px;
+.footer_logo {
+	/*padding-top: 10px;*/
 	height: 200px;
-	width: 300px;
-	border: 1px solid red;
+	width: 360px;
 	line-height: 26px;
 	display: inline-block;
 }
 
-.text_big_blue_f{
+.footer_logo,
+.footer_nav_part_1,
+.footer_nav_part_2,
+.footer_search {
+	vertical-align: top;
+}
+
+.text_big_blue_f {
 	font-size: 36px;
 	font-weight: bold;
 	color: #4d83cc;
 }
-.text_big_grey_f{
+.text_big_grey_f {
 	font-size: 36px;
 	font-weight: bold;
 	color: #566261;
 }
 
-.slogan_footer{
+.slogan_footer {
 	font-family: Trebuchet MS;
 	color: #4d83cc;
 	font-size: 24px;
 }
 
-.footer_nav_part_1{
+.footer_nav_part_1 {
 	height: 200px;
-	width: 160px;
-	border: 1px solid red;
+	width: 150px;
 	display: inline-block;
 }
 
-.footer_nav_part_2{
+.footer_nav_part_2 {
 	height: 200px;
-	width: 160px;
-	border: 1px solid red;
+	width: 150px;
 	display: inline-block;
 }
 
-.footer_search{
+.footer_search {
 	height: 190px;
-	width: 320px;
-	border: 1px solid red;
+	width: 280px;
 	display: inline-block;
 }
 
-.footer_bottom{
+.footer_bottom {
 	margin: 0 auto;
 	width: 960px;
 	height: 30px;
-	border: 1px solid red;
 	font-size: 12px;
 	color: #4d83cc;
 	line-height: 28px;
@@ -414,40 +433,50 @@ a{
 	font-family: Tahoma;
 }
 
-.text_blue{
+.text_blue {
 	color: #4d83cc;
 	text-decoration: none;
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: bold;
+	font-style: Verdana, tahoma, Trebuchet MS;
 }
 
-.text_grey{
+.text_grey {
 	color: #566261;
 	text-decoration: none;
 	font-size: 14px;
 	line-height: 20px;
+	font-style: Verdana, tahoma, Trebuchet MS;
 }
 
-.mail{
+.mail {
 	width: 150px;
 	height: 25px;
 	background-color: #566261;
 	border: 0;
 	font-size: 14px;
 	font-family: Verdana;
-	color: #ffffff;
+	color: #9aa0a0;
 	font-style: italic;
 	padding-left: 5px;
 }
 
-.footer_button{
+.footer_button {
 	background-color: #566261;
 	font-size: 12px;
 	line-height: 20px;
 	font-family: Verdana;
-	color: #ffffff;
+	color: #9aa0a0;
 	border-radius: 3px;
 	margin-left: 10px;
+	border-top: 2px solid #707c7b;
+	border-left: 2px solid #707c7b;
+	border-right: 2px solid #4b5453;
+	border-bottom: 2px solid #4b5453;
+}
+
+.g_footer_bottom{
+	border-top: 1px dashed #4d83cc;
 }
 /*------------------------------------------------------------ footer end*/
